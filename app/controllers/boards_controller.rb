@@ -38,6 +38,13 @@ class BoardsController < ApplicationController
     @board.destroy
   end
 
+  # def customAction
+  #   #take id from params
+  #   #use that id to find all the boards for that user
+  #   #render json: {boards: @boards}
+  #
+  # end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_board
