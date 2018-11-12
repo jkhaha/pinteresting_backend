@@ -10,5 +10,9 @@ Image.destroy_all
 Board.destroy_all
 User.destroy_all
 
-User.create(name:"Jackie")
-Board.create(title:"Desserts", user_id: 3)
+jackie= User.create(name:"Jackie")
+Board.create(title:"Desserts", user: jackie)
+
+Board.create(title:"Plants", user:jackie)
+
+Board.create(title:"Cities", user:jackie)
