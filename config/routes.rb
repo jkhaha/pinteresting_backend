@@ -1,8 +1,9 @@
 Rails.application.routes.draw do
 
 resources :users
-resources :boards
+resources :boards 
 resources :images
+
 # get "/users/:id/boards" to "boards#customAction"
   #  do
   #   resources :boards do
