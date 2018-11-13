@@ -13,6 +13,9 @@ User.destroy_all
 jackie= User.create(name:"Jackie")
 Board.create(title:"Desserts", user: jackie)
 
-Board.create(title:"Plants", user:jackie)
+plantBoard = Board.create(title:"Plants", user:jackie)
 
 Board.create(title:"Cities", user:jackie)
+
+Image.create(board:plantBoard, thumbnail_url:"https://images.unsplash.com/photo-1536147116438-62679a5e01f2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e8edad632cfc0900a6af587857693465&auto=format&fit=crop&w=400&q=60")
+Image.create(board:plantBoard, thumbnail_url:"https://images.unsplash.com/photo-1527174843116-72e8211b429f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f4f2f665b65926ee340cafdd2c5feb4f&auto=format&fit=crop&w=400&q=60")
