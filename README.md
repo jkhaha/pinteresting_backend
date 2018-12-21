@@ -19,6 +19,9 @@ BoredBoards is an app that lets you create boards and pin images from the Unspla
 
 Application frontend and instructions for setup: [BoredBoards Frontend](https://github.com/jkhaha/pinteresting_frontend)
 
+## Demo
+
+[Demo Video](https://www.youtube.com/watch?v=3GcxabXyVKE&feature=youtu.be)
 
 ## Instructions
 
